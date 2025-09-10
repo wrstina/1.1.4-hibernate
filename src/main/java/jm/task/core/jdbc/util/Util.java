@@ -11,7 +11,7 @@ public class Util {
     private static final String PASSWORD = "root";
     private static final String DRIVER = "com.mysql.cj.jdbc.Driver";
 
-    static { // выполнится 1 раз, только при загрузке
+    static { // run once with start of the program
         try {
             Class.forName(DRIVER);
         } catch (ClassNotFoundException e) {
@@ -26,7 +26,7 @@ public class Util {
             throw new RuntimeException("Connection failed", e);
         }
     }
-}// реализуйте настройку соеденения с БД
+}
 
 
 

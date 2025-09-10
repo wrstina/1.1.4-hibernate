@@ -27,10 +27,7 @@ public class HibernateUtil {
             settings.put(AvailableSettings.DIALECT, "org.hibernate.dialect.MySQL8Dialect");
 
             settings.put(AvailableSettings.SHOW_SQL, "true");
-
             settings.put(AvailableSettings.CURRENT_SESSION_CONTEXT_CLASS, "thread");
-
-            settings.put(AvailableSettings.HBM2DDL_AUTO, "create-drop");
 
             configuration.setProperties(settings);
 

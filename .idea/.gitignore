@@ -1,0 +1,56 @@
+# Default ignored files
+/shelf/
+/workspace.xml
+# Editor-based HTTP Client requests
+/httpRequests/
+# Datasource local storage ignored files
+/dataSources/
+/dataSources.local.xml
+# Java
+*.class
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# Build output
+target/
+build/
+out/
+bin/
+
+# Intellij IDEA (дополнительно)
+*.iws
+*.ipr
+*.ids
+*.orig
+modules.xml
+
+# Eclipse
+.settings/
+.project
+.classpath
+.metadata/
+
+# NetBeans
+nbproject/
+nb-configuration.xml
+
+# Logs
+logs/
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Database
+*.db
+*.sqlite
+*.h2.db
+
+# Maven
+pom.xml.versionsBackup
+dependency-reduced-pom.xml
